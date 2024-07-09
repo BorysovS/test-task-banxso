@@ -1,0 +1,264 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  color: #000;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1264px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.section-card {
+  padding-top: 60px;
+  padding-bottom: 125px;
+}
+
+.section-card-wrapper {
+  background-color: #ff9600;
+  padding: 0px 7px;
+  width: 1240px;
+  border-radius: 7px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.section-card-title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.section-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.section-card-item {
+  border: 1px solid #191a23;
+  border-radius: 45px;
+  box-shadow: 0 5px 0 0 #191a23;
+  padding: 48px 51px;
+  width: calc((100% - 32px) / 2);
+}
+
+.section-card-item:first-child {
+  background-color: #f3f3f3;
+}
+
+.section-card-item:nth-child(2) {
+  background-color: #ff9600;
+  padding: 48px;
+}
+
+.section-card-item:nth-child(3) {
+  background-color: #191a23;
+}
+
+.section-card-item-wrap {
+  height: 77px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  padding: 0px 12px;
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.section-card-item-wrap-first {
+  background-color: #ff9600;
+}
+
+.section-card-item-num {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.section-card-subtitle {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.section-card-text {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.section-card-text-last {
+  color: #fff;
+}
+
+.section-card-btn {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #fff;
+  border-radius: 14px;
+  min-width: 235px;
+  height: 68px;
+  cursor: pointer;
+  background-color: #ff9600;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.galery {
+  padding-bottom: 124px;
+}
+
+.galery-title {
+  border-radius: 7px;
+  padding: 0px 7px;
+  height: 51px;
+  background-color: #ff9600;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 40px;
+  width: 1090px;
+}
+
+.galery-text {
+  margin-bottom: 48px;
+}
+/* Swiper */
+.swiper {
+  position: relative;
+  width: 1240px;
+  height: 661px;
+  padding: 48px 0;
+  background-color: #191a23;
+}
+
+.swiper-slide {
+  border-radius: 12px;
+  padding: 12px;
+  width: 431px;
+  height: 519px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  border-radius: 12px;
+  width: 407px;
+  height: 372px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.swiper-slide-text {
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000;
+}
+
+.swiper-slide-button {
+  border-radius: 12px;
+  border: none;
+  padding: 12px;
+  width: 407px;
+  background: #00d9a6;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.swiper-button-next {
+  border-radius: 100%;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #fff;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.custom-buttons {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  border-radius: 100%;
+  border: none;
+  fill: #ff9600;
+  stroke-width: 1px;
+  stroke: #ff9600;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+
+  z-index: 6;
+}
+
+.custom-buttons:hover {
+  background-color: #ff9600;
+  fill: #000;
+  stroke: #000;
+  transition: background-color 200ms ease-in-out;
+}
+
+#prevButton {
+  top: 43%;
+  left: 4%;
+}
+
+.swiper-section {
+  position: relative;
+}
+
+#nextButton {
+  top: 43%;
+  right: 4%;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  bottom: 34px;
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+  fill: white;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  fill: orange;
+}
